@@ -1,0 +1,25 @@
+_id: req_ec3d76f4fdd24ff9a821107f74ec401d
+type: Request
+parentId: wrk_ed8ddd5b702c4d62bcc3e25259bc78d0
+modified: 1683163388043
+created: 1683163232160
+url: "{{ _.url }}"
+name: home
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"query {\n\thome\n}"}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1683163232160
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
